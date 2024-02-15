@@ -1,2 +1,2 @@
 # Mobile app 
-To learn using React Native to develop a mobile app.
+Learn how to use React Native to develop a mobile app.
