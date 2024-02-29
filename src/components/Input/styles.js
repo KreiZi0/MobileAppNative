@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
     },
     
     eye: {
-      width: 24,
+      width: 27,
       height: 24,
       marginHorizontal: 16,
       // Additional styles...
