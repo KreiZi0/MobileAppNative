@@ -33,7 +33,7 @@ const SignIn = ({ navigation }) => {
             Alert.alert("All fields are required!");
             return;
         }
-        axios.post("http://192.168.18.4/api/user/login", values)
+        axios.post("http://192.168.17.234/api/user/login", values)
             .then(async (response) => {
                 console.log(response?.data?.accessToken);
                 const accessToken = response?.data?.accessToken;

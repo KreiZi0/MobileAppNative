@@ -41,10 +41,10 @@ const SignUp = ({ navigation }) => {
         }
 
         try {
-            const response = await axios.post('http://192.168.18.4/api/user/register', values);
+            const response = await axios.post('http://192.168.17.234/api/user/register', values);
             console.log('signup => ', response.data);
             const { email, password } = values;
-            const loginResponse = await axios.post('http://192.168.18.4/api/user/login', { email, password });
+            const loginResponse = await axios.post('http://192.168.17.234/api/user/login', { email, password });
             console.log('login =>', loginResponse.data);
             const accessToken = loginResponse?.data?.accessToken;
             console.log(accessToken);
